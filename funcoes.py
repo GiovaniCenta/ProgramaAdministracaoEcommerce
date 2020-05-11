@@ -21,7 +21,7 @@ from bson import errors as beeros
 import PySimpleGUI as sg
 
 def conectar():
-    conn=MongoClient('localhost',27017) #servidor,porta
+    conn=MongoClient('localhost',27017) #aqui se faz a conexão com o banco de dados em questão
     return conn
 
 def desconectar(conn):
